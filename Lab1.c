@@ -60,7 +60,7 @@ void paintTable(float x1, float x2, float delta, unsigned int n )
 	printf(" *");
 	for (int i = 0; i < sizeX-2; i++)
 	{
-		if ((sizePoint / 2)-1 == i)
+		if ((sizeX / 2)-1 == i)
 		{
 			printf("X");
 		}
@@ -69,7 +69,7 @@ void paintTable(float x1, float x2, float delta, unsigned int n )
 	printf(" *");
 	for (int i = 0; i < sizeFX-4; i++)
 	{
-		if ((sizePoint / 2)-1 == i)
+		if ((sizeFX / 2)-1 == i)
 		{
 			printf("F(X)");
 		}
